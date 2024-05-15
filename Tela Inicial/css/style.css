@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+  *{
+    text-decoration: none; 
+    color: #000;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+   
+    
+  }
+  
+
+  header nav{
+    position: relative;
+    width: 100%;
+    height: 80;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0%;
+    background: transparent;
+  }
+
+  body{
+    background: #FFF;
+    position: relative;
+    height: 100%;
+    
+    
+    
+  }
+  
+    nav .search{
+      top: 0%;
+      left: 10%;
+    }
+
+
+  
+
+  nav a.logo{
+    position: relative;
+    margin: auto;
+    font-family: "Galada";
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+  }
+
+
+    .carro{
+      height: 100%;
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      align-items: center;
+      gap: 5rem;
+      
+    }
+
+    section{
+      padding: 0 10%;
+      padding-top: 0%;
+      
+    }
+
+    .carro-txt p{
+      width: 403px;
+      height: 203px;
+      flex-shrink: 0;
+      color: #000;
+      text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: Ubuntu;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 10px;
+     
+    }
+
+    .carro-img{ 
+      width: 600;
+      height: auto;
+
+      
+     }
+
+     
+     .comprar{
+     text-align: center;
+     margin-top: 0px;
+      
+     }
+     
+     .comprar button{
+      background-color: #BFBFBF;
+      width: 112px;
+      height: 43px;
+      flex-shrink: 0;
+      border-radius: 40px;
+      margin-right: 60px;
+      border: none;
+      
+     }
+
+     .shop{
+      margin-top: 2rem;
+     }
+
+     .produtos{
+      display: grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px, auto));
+      gap: 1.5rem;
+      
+     }
+     .produtos img{
+      width: 100%;
+    }
+     
+     
+
+     
+
+
+  
+
+  
+
+    
+  
+   
+   
