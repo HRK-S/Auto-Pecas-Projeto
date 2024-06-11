@@ -24,7 +24,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 20px 0%;
-      background: transparent;
+      background: white;
       border-bottom: 2px solid rgb(0, 0, 0);
       
     }
@@ -79,14 +79,13 @@
  
    .cart{
     position: fixed;
-    right:0%;
+    right:-100%;
     top: 0;
     width: 360px;
     min-height: 100vh;
     padding: 20px;
-    background: #ffffff;
-    box-shadow: -2p 0 4px hsl(0 4% 15% / 10%);
-    transition: 0.3s;
+    background: #FFF;
+    z-index: 1;
    }
    .cart.active{
     right: 0;
@@ -275,7 +274,7 @@
       margin-bottom: 0.5rem;
      }
 
-     #cart-add{
+     .cart-add{
       position: absolute;
       bottom: 0;
       right: 0;

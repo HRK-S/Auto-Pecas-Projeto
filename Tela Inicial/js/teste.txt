@@ -1,0 +1,27 @@
+function saveCartItems() {
+  let cartContent = document.getElementsByClassName('cart-content')[0];
+  let cartBoxes = cartContent.getElementsByClassName('cart-box');
+  let cartItems = [];
+
+  for (let i = 0; i < cartBoxes.length; i++) {
+      let cartBox = cartBoxes[i];
+      let titleElement = cartBox.getElementsByClassName('cart-product-title')[0];
+      let priceElement = cartBox.getElementsByClassName('cart-price')[0];
+      let quantityElement = cartBox.getElementsByClassName('cart-quantity')[0];
+  }
+}
+
+
+function updateCartIcon(){
+  var cartBoxes = document.getElementsByClassName('cart-box')
+  var quantity = 0;
+
+  for(var i=0; i< cartBoxes.length; i++){
+    var cartBox = cartBoxes[i];
+    var quantityElement = cartBox.getElementsByClassName('cart-quantity')[0]; 
+    quantity += parseInt(quantityElement.value);
+  }
+  var cartIcon = document.querySelector("#cart-icon");
+  cartIcon.setAttribute("data-quantity", quantity);
+}
+
